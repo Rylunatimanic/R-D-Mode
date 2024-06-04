@@ -20,12 +20,12 @@ local entity = Spawner.createEntity({
     },
     Cycles = {
         Min = 1,
-        Max = 1,
-        Delay = 2
+        Max = 2,
+        Delay = 0
     },
     CamShake = {
         Enabled = true,
-        Values = {1009.5, 20, 0.1, 1},
+        Values = {9.5, 20, 0.1, 1},
         Range = 100
     },
     ResistCrucifix = true,
